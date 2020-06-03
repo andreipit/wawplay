@@ -17,6 +17,13 @@ python -m twine upload --repository testpypi dist/*
     View at:
     https://test.pypi.org/project/wawplay/0.0.2/
 
+to push changes, make again:
+wawplay/__init__.py => change version to 0.0.3
+wawplay/dist -> delete old file versions
+python setup.py sdist bdist_wheel
+python -m twine upload --repository testpypi dist/*
+
+
 download wheel/tar.gz and install manually:
     Anaconda Prompt
     conda activate D:\progs\conda\cvenv04_default

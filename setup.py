@@ -12,7 +12,7 @@ if __name__ == "__main__":
     setup(
         name="wawplay",
         version=wawplay.__version__,
-        description="WAWPLAY: What a wonderfull playground!",
+        description="WAWPLAY: What a wonderfull playground! from wawplay.engine import Engine; Engine.train('smth')",
         long_description=long_description,
         long_description_content_type="text/markdown",
         author="Andrei Pit",
